@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    background: blueviolet;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    margin-bottom: 2px;
+}
+.menu {
+    display: flex;
+    text-align: center;
+    line-height: 175px;
+}
+.B {
+    background: blue;
+    height: 200px;
+    flex-grow: 1;
+    margin-right: 2px;
+
+}
+.C {
+    background: black;
+    height: 200px;
+    flex-grow: 1;
+    margin-right: 2px;
+    color: white;
+
+}
+.D {
+    background: red;
+    height: 200px;
+    flex-grow: 1;
+
+}
+.F {
+    background: teal;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    margin-top: 2px;
+}

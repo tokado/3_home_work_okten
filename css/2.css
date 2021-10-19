@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    background: blueviolet;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+.nav_menu {
+    background: tomato;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+}
+.block {
+    display: flex;
+    text-align: center;
+    line-height: 175px;
+}
+.B {
+    background: blue;
+    height: 200px;
+    flex-grow: 5;
+    margin-right: 2px;
+
+}
+.C {
+    background: red;
+    height: 200px;
+    flex-grow: 1;
+
+}
+.footer {
+    background: fuchsia;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 2px;
+}
