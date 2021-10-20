@@ -3,43 +3,38 @@ body {
     padding: 0;
 
 }
-.header {
-    background: blueviolet;
+.block__long {
     text-align: center;
     height: 200px;
     line-height: 200px;
     margin-bottom: 2px;
+}
+.header__block-A {
+    background: blueviolet;
 }
 .menu {
     display: flex;
     text-align: center;
     line-height: 175px;
 }
-.B {
-    background: blue;
+.medium_block {
     height: 200px;
     flex-grow: 1;
     margin-right: 2px;
+}
+.menu__block_B {
+    background: blue;
 
 }
-.C {
+.menu__block_C {
     background: black;
-    height: 200px;
-    flex-grow: 1;
-    margin-right: 2px;
     color: white;
 
 }
-.D {
+.menu__block_D {
     background: red;
-    height: 200px;
-    flex-grow: 1;
 
 }
 .F {
     background: teal;
-    text-align: center;
-    height: 200px;
-    line-height: 200px;
-    margin-top: 2px;
 }

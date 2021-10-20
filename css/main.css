@@ -3,28 +3,44 @@ body {
     padding: 0;
 
 }
-.header {
+
+.main {
+    background: gray;
+}
+
+.header__block-A {
     background: blueviolet;
     text-align: center;
     height: 50px;
     line-height: 50px;
     margin-bottom: 2px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    column-gap: 5px;
+    row-gap: 5px;
 }
+
 .footer {
     display: flex;
     text-align: center;
     line-height: 175px;
 }
-.B {
-    background: blue;
+
+.footer__blocks {
     height: 200px;
     flex-grow: 5;
     margin-right: 2px;
-
+    border-radius: 10px;
+    border: 2px solid black;
+    column-gap: 5px;
+    row-gap: 5px;
 }
-.C {
-    background: red;
-    height: 200px;
-    flex-grow: 1;
 
+.foooter__block-B {
+    background: blue;
+}
+
+.foooter__block-C {
+    background: red;
 }

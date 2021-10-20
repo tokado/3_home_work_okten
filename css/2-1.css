@@ -3,30 +3,32 @@ body {
     padding: 0;
 
 }
-.header {
-    background: blueviolet;
+.block__long {
     text-align: center;
     height: 50px;
     line-height: 50px;
     margin-bottom: 2px;
 }
+.header__block-A {
+    background: blueviolet;
+}
 
-.section_2 {
+.section-1 {
     display: flex;
     text-align: center;
     line-height: 175px;
 }
-.menu {
+.section-1__menu {
     background: aqua;
     height: 400px;
     width: 200px;
 
 }
-.B {
+.section-2__block_B {
     background: blue;
     height: 200px;
 }
-.C {
+.section-2__block_C {
     background: red;
     height: 200px;
 
@@ -34,12 +36,8 @@ body {
 }
 .footer {
     background: yellow;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-    margin-bottom: 2px;
 }
-.main {
+.section-2 {
     flex-direction:column;
     width: 100%;
 }
